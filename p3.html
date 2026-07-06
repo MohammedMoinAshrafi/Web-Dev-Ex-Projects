@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Static Website</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin:0;
+            padding:0;
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:30px;
+        }
+
+        header h1{
+            margin:0;
+        }
+
+        nav{
+            background:#444;
+            padding:12px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 20px;
+            font-size:18px;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:#ffd700;
+        }
+
+        section{
+            background:white;
+            width:80%;
+            margin:30px auto;
+            padding:25px;
+            border-radius:10px;
+            box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+        }
+
+        h2{
+            margin-top:0;
+        }
+
+        button{
+            background:#333;
+            color:white;
+            border:none;
+            padding:10px 20px;
+            border-radius:5px;
+            cursor:pointer;
+            font-size:16px;
+            transition:0.3s;
+        }
+
+        button:hover{
+            background:#666;
+            transform:scale(1.05);
+        }
+
+        footer{
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:300px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Welcome to My Website</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+
+    <h2>About Me</h2>
+
+    <p>
+        This is a simple static website created using HTML, CSS, and JavaScript.
+        It includes a header, navigation, content section, and a footer.
+    </p>
+
+    <button onclick="showAlert()">Click Me</button>
+
+</section>
+
+<footer>
+    <p>&copy; 2026 My Static Website</p>
+</footer>
+
+<script>
+
+function showAlert(){
+    alert("Thanks for visiting my website!");
+}
+
+</script>
+
+</body>
+</html>
