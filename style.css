@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav {
+    position: fixed;
+    width: 90%;
+        font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 3px;
+}
+#nav h3{
+    background-color: #000;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 50%;
+    margin: 2px;
+}
+#intro{
+    height: 45%;
+    width: 100%;
+    padding: 20px;
+}
+#intro h1{
+    font-size: 90px;
+    letter-spacing: -1px;
+    line-height: 90px;
+}
+#place{
+    margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      line-height: 300%;
+}
+#place h2,#place h4{
+    font-size: 25px;
+}
+img{
+    object-fit: cover;
+    object-position: center;
+    height: 85%;
+    width: 100%;
+    background-size: cover;
+}
+#nav h3,#nav h4{
+    border-radius: 20%;
+    top: 20%;
+    right: 20%;
+}
+#about{
+    height: 45%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+#about h2{
+    font-weight: 70px;   
+    width: 60%;
+    font-size: 70px;
+}
+#about-part2{
+    width: 30%;
+    height: 100%;
+    padding: 0 60px;
+    border-left: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#icons{
+  
+}
+#icons i{
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 50px;
+    margin: 2px;
+}
+#work{
+    height: 45%;
+    width: 100%;
+    border-top: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+#work1{
+    width: 30%;
+    height: 100%;
+    border-right: 2px solid #000;
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+}
+#work1 h3{
+    font-size: 25px;
+}
+#work1 i{
+    font-size: 25px;
+}
+#work2{
+    width: 70%;
+    height: 100%;
+    padding: 25px;
+    
+}
+.work2-part{
+      
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px;
+}
+.work2-part:nth-child(1){
+border-bottom: 2px solid #000;
+}
+.work2-part .elem{
+    width: 50%;
+    height: 100%;
+}
+.work2-part .elem:nth-child(1){
+       border-right: 2px solid #000;
+       padding-right: 20px;
+}
+.work2-part .elem:nth-child(2){
+       padding: 3px;
+}
+.work2-part .elem h4{
+    font-size: 25px;
+    font-weight: 20px;
+}
+.work2-part .elem p{
+    font-size: 15px;
+    font-weight: 15px;
+}
